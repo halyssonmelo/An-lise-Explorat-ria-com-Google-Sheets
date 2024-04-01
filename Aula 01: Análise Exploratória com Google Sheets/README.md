@@ -120,18 +120,14 @@ Em seguida, adicionaremos duas novas colunas à nossa planilha principal para as
 
 Utilizaremos novamente a função VLOOKUP para importar essas informações. O código da coluna de Setor será o seguinte:
 
-```css
-cssCopy code
+```
 =VLOOKUP(Q2;'CHAT GPT'!A:C;2;0)
-
 ```
 
 Para a coluna de Anos, o código será:
 
-```css
-cssCopy code
+```
 =VLOOKUP(Q2;'CHAT GPT'!A:C;3;0)
-
 ```
 
 Desejamos criar uma nova coluna na qual categorizaremos as idades em três faixas distintas: "Maior que 100 anos", "Menor que 50 anos" e "Entre 100 e 50 anos". Para isso, utilizaremos a função IF da seguinte maneira:
