@@ -16,3 +16,4 @@ Nesta aula, utilizei uma base de dados da bolsa de valores, explorando-a no Goog
 - Análises exploratórias usando o Google Sheets
 - Utilização do Chat GPT
 - Criação de tabelas e cálculos de estatísticas como Máximo, Mínimo e Média
+- Trabalhando com percentual: Transformação de valores, regressão e variação percentual.
