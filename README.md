@@ -1,8 +1,8 @@
 # 👋 Bem-vindo ao repositório da **Imersão Python: Do Excel à Análise de Dados**!
 
-Este repositório é um tesouro de conhecimento adquirido ao longo do curso de Imersão Python oferecido pela Alura. Foi uma jornada incrível para aprimorar minhas habilidades em análise de dados e aplicar Python na prática. 🐍
+Este repositório é o registro de todo o conhecimento adquirido por mim ao longo das aulas práticas do curso de Imersão Python oferecido pela Alura. Foi uma jornada incrível para aprimorar minhas habilidades em análise de dados e aplicar Python na prática. 🐍
 
-Aqui, você encontrará um registro de todos os projetos desenvolvidos ao longo das cinco aulas do curso. Cada aula possui sua própria pasta, contendo um README que detalha todo o processo de construção dos projetos e atividades propostos durante o curso, além de arquivos com códigos e imagens. Abaixo, apresento uma visão geral de cada aula do curso realizada e as competências desenvolvidas.
+Aqui, você encontrará todos os projetos desenvolvidos ao longo das cinco aulas totalmente práticas do curso. Cada aula possui sua própria pasta, contendo um README que detalha todo o processo de construção dos projetos e atividades propostos durante o curso, além de todos os arquivos ultilizados, desde a base inicial até o resultado final ao qual cheguei. Abaixo, apresento uma visão geral de cada aula do curso realizada e as competências desenvolvidas.
 
 ## 📚 Conteúdo do Curso:
 
