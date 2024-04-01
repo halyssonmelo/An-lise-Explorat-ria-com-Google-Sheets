@@ -105,10 +105,6 @@ Após aplicar a formula, iremos observar valores muito grandes e desordenados se
 
 Criaremos uma coluna "Resultado" para classificar o desempenho das empresas com base na variação monetária previamente calculada. Este critério nos permitirá identificar as empresas cujas ações registraram crescimento, aquelas que apresentaram queda e aquelas que permaneceram estáveis. Para alcançar esse objetivo, utilizaremos a cláusula "IF" em nosso código. O código a ser utilizado é o seguinte:
 
-## 3. Utilizando o IF
-
-Criaremos uma coluna "Resultado" para classificar o desempenho das empresas com base na variação monetária previamente calculada. Este critério nos permitirá identificar as empresas cujas ações registraram crescimento, aquelas que apresentaram queda e aquelas que permaneceram estáveis. Para alcançar esse objetivo, utilizaremos a cláusula "IF" em nosso código. O código a ser utilizado é o seguinte:
-
 ```
 =if(O2<0;"Desceu";If(O2>0;"Subiu";"Estavel"))
 ```
