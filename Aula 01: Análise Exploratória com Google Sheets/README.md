@@ -6,7 +6,7 @@ A base de dados utilizada para a realização dessa aula prática se encontra no
 
 E online no seguinte link: https://docs.google.com/spreadsheets/d/1sGaR2Nkfi025rTzztCyDX7q-ZztHsK7U_SqXQr76dQ4/edit#gid=0
 
-Foram realizados 3 processos para a análise dos dados: 
+Foram realizados 4 processos para a análise dos dados: 
 
 ## 1. Trabalhando com Percentual: Transformação de valores, regressão e variação
 
@@ -108,5 +108,35 @@ Criaremos uma coluna "Resultado" para classificar o desempenho das empresas com 
 ```
 =if(O2<0;"Desceu";If(O2>0;"Subiu";"Estavel"))
 ```
+## 4. Utilizando Inteligência Artificial para automatização de informações
 
+Podemos aproveitar a inteligência artificial do ChatGPT a nosso favor.
+
+Com isso em mente, nosso objetivo é obter informações sobre o setor e os anos de todas as empresas, utilizando o ChatGPT para isso, fornecendo uma lista de nomes como entrada.
+
+Após recebermos as informações do ChatGPT, criaremos uma nova planilha em nosso Google Sheets com esses novos dados, denominada "CHAT GPT".
+
+Em seguida, adicionaremos duas novas colunas à nossa planilha principal para as informações de Setor e Anos.
+
+Utilizaremos novamente a função VLOOKUP para importar essas informações. O código da coluna de Setor será o seguinte:
+
+```css
+cssCopy code
+=VLOOKUP(Q2;'CHAT GPT'!A:C;2;0)
+
+```
+
+Para a coluna de Anos, o código será:
+
+```css
+cssCopy code
+=VLOOKUP(Q2;'CHAT GPT'!A:C;3;0)
+
+```
+
+Desejamos criar uma nova coluna na qual categorizaremos as idades em três faixas distintas: "Maior que 100 anos", "Menor que 50 anos" e "Entre 100 e 50 anos". Para isso, utilizaremos a função IF da seguinte maneira:
+
+```
+=if(S2>100;"Mais de100 anos";if(S2<50;"Menor que 50 anos";"Entre 50 e 100 anos"))
+```
 
