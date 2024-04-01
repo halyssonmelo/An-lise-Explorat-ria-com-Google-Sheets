@@ -8,7 +8,7 @@ Aqui, você encontrará um registro de todos os projetos desenvolvidos ao longo 
 
 ## Aula 01: Análise Exploratória com Google Sheets
 
-Nesta aula, utilizei uma base de dados da bolsa de valores, explorando-a no Google Sheets. Utilizamos diversas fórmulas como VLOOKUP, SUMIF e até mesmo IA. Foi um início empolgante!
+Nesta aula, utilizei uma base de dados da bolsa de valores, explorando-a no Google Sheets. Utilizamos diversas fórmulas como VLOOKUP, SUM,IF e até mesmo IA. Foi um início empolgante!
 
 ### 🚀 Competências Desenvolvidas:
 
