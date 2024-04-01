@@ -14,6 +14,6 @@ Nesta aula, utilizei uma base de dados da bolsa de valores, explorando-a no Goog
 
 - Análise das variações na B3
 - Análises exploratórias usando o Google Sheets
-- Utilização do Chat GPT
+- Utilização de IA para automação
 - Criação de tabelas e cálculos de estatísticas como Máximo, Mínimo e Média
 - Trabalhando com percentual: Transformação de valores, regressão e variação percentual.
